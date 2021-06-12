@@ -1,0 +1,72 @@
+.left-block {
+    width: 350px;
+    height: 320px;
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.right-block {
+    width: 250px;
+    height: 320px;
+    background-color: grey;
+}
+.center-block {
+    width: 250px;
+    height: 320px;
+    background-color: lightblue;
+}
+.flex-wraper {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+/* section flexbox */
+.container {
+    width: 1165px;
+    margin: 0 auto;
+}
+.block {
+    width: 371px;
+    height: 374px;
+    background-color: lightblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.block-wraper {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.icon-block {
+    width: 88px;
+    height: 88px;
+    background-color: #325DFF;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.text-block {
+    width: 250px;
+    background-color: yellow;
+    text-align: center;
+}
+.size {
+    margin-top: 30px;
+}
+/* icons fontawesome */
+.fbicon {
+    font-size: 35px;
+    color: blue;
+}
+.fa-youtube {
+    font-size: 35px;
+    color: red;
+}
+.fa-youtube:hover {
+    color: green;
+}
